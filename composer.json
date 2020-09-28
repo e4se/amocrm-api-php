@@ -18,11 +18,17 @@
     "authorisation",
     "amocrm"
   ],
+  "repositories": [  
+    {  
+        "type": "vcs",  
+        "url": "https://github.com/e4se/amocrm-oauth-client"  
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "ext-json": "*",
-    "amocrm/oauth2-amocrm": "^2.0",
-    "guzzlehttp/guzzle": "^7.1",
+    "amocrm/oauth2-amocrm": "dev-master",
+    "guzzlehttp/guzzle": "6.* || 7.*",
     "illuminate/support": "5.* || 6.* || 7.* || 8.*",
     "symfony/dotenv": "4.* || 5.*",
     "fig/http-message-util": "1.*",
